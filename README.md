@@ -21,22 +21,23 @@ Geocentric Mercury 0.4563637 | -0.4931176 | 0.0378670
 
 
 Lower Geocentric Longitude:
-Mercury: 312.48956234125933
-Venus: 317.38564568597224
-Mars: 50.30681717554888
-Jupiter: 313.21673500115367
-Saturn: 306.7258298804479
-Uranus: 37.02532884471532
-Neptune: 349.46479324963013
-Pluto: 295.4011407521623
 
-Longitude Data at almost the same moment from astro.com
+Mercury: 312.48956234125933</br>
+Venus: 317.38564568597224</br>
+Mars: 50.30681717554888</br>
+Jupiter: 313.21673500115367</br>
+Saturn: 306.7258298804479</br>
+Uranus: 37.02532884471532</br>
+Neptune: 349.46479324963013</br>
+Pluto: 295.4011407521623</br>
 
-Mercury 312 46'51"
-Venus 317 39'56"
-Mars 50 36'10"
-Jupiter 313 31'55"
-Saturn 306 59'28"
-Uranus 37 10'19"
-Neptune 349 45'56"
-Pluto 295 39'48"
+Longitude Data at almost the same moment from astro.com</br>
+
+Mercury 312 46'51"</br>
+Venus 317 39'56"</br>
+Mars 50 36'10"</br>
+Jupiter 313 31'55"</br>
+Saturn 306 59'28"</br>
+Uranus 37 10'19"</br>
+Neptune 349 45'56"</br>
+Pluto 295 39'48"</br>
