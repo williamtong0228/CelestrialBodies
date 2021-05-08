@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1FAE1B24B2D71B00D27822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE1A24B2D71B00D27822 /* AppDelegate.swift */; };
+		3D1FAE1D24B2D71B00D27822 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE1C24B2D71B00D27822 /* SceneDelegate.swift */; };
+		3D1FAE2024B2D71B00D27822 /* IntermediateZodiac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE1E24B2D71B00D27822 /* IntermediateZodiac.xcdatamodeld */; };
+		3D1FAE2224B2D71B00D27822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE2124B2D71B00D27822 /* ContentView.swift */; };
+		3D1FAE2424B2D72200D27822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FAE2324B2D72200D27822 /* Assets.xcassets */; };
+		3D1FAE2724B2D72200D27822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FAE2624B2D72200D27822 /* Preview Assets.xcassets */; };
+		3D1FAE2A24B2D72200D27822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FAE2824B2D72200D27822 /* LaunchScreen.storyboard */; };
+		3D1FAE3A24B2D7AE00D27822 /* HelioPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE3224B2D7AD00D27822 /* HelioPositions.swift */; };
+		3D1FAE3B24B2D7AE00D27822 /* Declination.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE3324B2D7AD00D27822 /* Declination.m */; };
+		3D1FAE3C24B2D7AE00D27822 /* GlobalCalUpper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE3524B2D7AE00D27822 /* GlobalCalUpper.m */; };
+		3D1FAE3D24B2D7AE00D27822 /* Moon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE3824B2D7AE00D27822 /* Moon.m */; };
+		3D1FAE3E24B2D7AE00D27822 /* GlobalCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE3924B2D7AE00D27822 /* GlobalCal.m */; };
+		3D1FAE4024B4BB2400D27822 /* SharedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FAE3F24B4BB2400D27822 /* SharedValues.swift */; };
+		3D38358725E29EF5000492CB /* BirthdayInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38358625E29EF5000492CB /* BirthdayInputView.swift */; };
+		3DA17C232614C76D007CF04E /* SecWheelInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA17C222614C76C007CF04E /* SecWheelInputView.swift */; };
+		3DA17C262614C873007CF04E /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA17C252614C873007CF04E /* ChartViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1FAE1724B2D71B00D27822 /* IntermediateZodiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateZodiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1FAE1A24B2D71B00D27822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D1FAE1C24B2D71B00D27822 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D1FAE1F24B2D71B00D27822 /* IntermediateZodiac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntermediateZodiac.xcdatamodel; sourceTree = "<group>"; };
+		3D1FAE2124B2D71B00D27822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D1FAE2324B2D72200D27822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1FAE2624B2D72200D27822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D1FAE2924B2D72200D27822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D1FAE2B24B2D72200D27822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1FAE3124B2D7AD00D27822 /* IntermediateZodiac-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntermediateZodiac-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D1FAE3224B2D7AD00D27822 /* HelioPositions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelioPositions.swift; sourceTree = "<group>"; };
+		3D1FAE3324B2D7AD00D27822 /* Declination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declination.m; sourceTree = "<group>"; };
+		3D1FAE3424B2D7AE00D27822 /* Moon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moon.h; sourceTree = "<group>"; };
+		3D1FAE3524B2D7AE00D27822 /* GlobalCalUpper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalCalUpper.m; sourceTree = "<group>"; };
+		3D1FAE3624B2D7AE00D27822 /* GlobalCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalCal.h; sourceTree = "<group>"; };
+		3D1FAE3724B2D7AE00D27822 /* Declination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declination.h; sourceTree = "<group>"; };
+		3D1FAE3824B2D7AE00D27822 /* Moon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Moon.m; sourceTree = "<group>"; };
+		3D1FAE3924B2D7AE00D27822 /* GlobalCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalCal.m; sourceTree = "<group>"; };
+		3D1FAE3F24B4BB2400D27822 /* SharedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedValues.swift; sourceTree = "<group>"; };
+		3D38358525E29864000492CB /* GlobalCalUpper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalCalUpper.h; sourceTree = "<group>"; };
+		3D38358625E29EF5000492CB /* BirthdayInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayInputView.swift; sourceTree = "<group>"; };
+		3DA17C222614C76C007CF04E /* SecWheelInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecWheelInputView.swift; sourceTree = "<group>"; };
+		3DA17C252614C873007CF04E /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1FAE1424B2D71B00D27822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1FAE0E24B2D71B00D27822 = {
+			isa = PBXGroup;
+			children = (
+				3D1FAE1924B2D71B00D27822 /* IntermediateZodiac */,
+				3D1FAE1824B2D71B00D27822 /* Products */,
+				3D1FAE3124B2D7AD00D27822 /* IntermediateZodiac-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1FAE1824B2D71B00D27822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1FAE1724B2D71B00D27822 /* IntermediateZodiac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1FAE1924B2D71B00D27822 /* IntermediateZodiac */ = {
+			isa = PBXGroup;
+			children = (
+				3D1FAE3724B2D7AE00D27822 /* Declination.h */,
+				3D1FAE3324B2D7AD00D27822 /* Declination.m */,
+				3D1FAE3624B2D7AE00D27822 /* GlobalCal.h */,
+				3D1FAE3924B2D7AE00D27822 /* GlobalCal.m */,
+				3D1FAE3524B2D7AE00D27822 /* GlobalCalUpper.m */,
+				3D38358525E29864000492CB /* GlobalCalUpper.h */,
+				3D1FAE3224B2D7AD00D27822 /* HelioPositions.swift */,
+				3D1FAE3F24B4BB2400D27822 /* SharedValues.swift */,
+				3D1FAE3424B2D7AE00D27822 /* Moon.h */,
+				3D1FAE3824B2D7AE00D27822 /* Moon.m */,
+				3D1FAE1A24B2D71B00D27822 /* AppDelegate.swift */,
+				3D1FAE1C24B2D71B00D27822 /* SceneDelegate.swift */,
+				3D1FAE2124B2D71B00D27822 /* ContentView.swift */,
+				3DA17C252614C873007CF04E /* ChartViewModel.swift */,
+				3D38358625E29EF5000492CB /* BirthdayInputView.swift */,
+				3DA17C222614C76C007CF04E /* SecWheelInputView.swift */,
+				3D1FAE2324B2D72200D27822 /* Assets.xcassets */,
+				3D1FAE2824B2D72200D27822 /* LaunchScreen.storyboard */,
+				3D1FAE2B24B2D72200D27822 /* Info.plist */,
+				3D1FAE1E24B2D71B00D27822 /* IntermediateZodiac.xcdatamodeld */,
+				3D1FAE2524B2D72200D27822 /* Preview Content */,
+			);
+			path = IntermediateZodiac;
+			sourceTree = "<group>";
+		};
+		3D1FAE2524B2D72200D27822 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D1FAE2624B2D72200D27822 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1FAE1624B2D71B00D27822 /* IntermediateZodiac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1FAE2E24B2D72200D27822 /* Build configuration list for PBXNativeTarget "IntermediateZodiac" */;
+			buildPhases = (
+				3D1FAE1324B2D71B00D27822 /* Sources */,
+				3D1FAE1424B2D71B00D27822 /* Frameworks */,
+				3D1FAE1524B2D71B00D27822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntermediateZodiac;
+			productName = IntermediateZodiac;
+			productReference = 3D1FAE1724B2D71B00D27822 /* IntermediateZodiac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1FAE0F24B2D71B00D27822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "William Tong";
+				TargetAttributes = {
+					3D1FAE1624B2D71B00D27822 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 3D1FAE1224B2D71B00D27822 /* Build configuration list for PBXProject "IntermediateZodiac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1FAE0E24B2D71B00D27822;
+			productRefGroup = 3D1FAE1824B2D71B00D27822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1FAE1624B2D71B00D27822 /* IntermediateZodiac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1FAE1524B2D71B00D27822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1FAE2A24B2D72200D27822 /* LaunchScreen.storyboard in Resources */,
+				3D1FAE2724B2D72200D27822 /* Preview Assets.xcassets in Resources */,
+				3D1FAE2424B2D72200D27822 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1FAE1324B2D71B00D27822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1FAE3B24B2D7AE00D27822 /* Declination.m in Sources */,
+				3D1FAE3C24B2D7AE00D27822 /* GlobalCalUpper.m in Sources */,
+				3D1FAE3D24B2D7AE00D27822 /* Moon.m in Sources */,
+				3D1FAE2024B2D71B00D27822 /* IntermediateZodiac.xcdatamodeld in Sources */,
+				3D1FAE4024B4BB2400D27822 /* SharedValues.swift in Sources */,
+				3D38358725E29EF5000492CB /* BirthdayInputView.swift in Sources */,
+				3D1FAE1B24B2D71B00D27822 /* AppDelegate.swift in Sources */,
+				3DA17C232614C76D007CF04E /* SecWheelInputView.swift in Sources */,
+				3D1FAE2224B2D71B00D27822 /* ContentView.swift in Sources */,
+				3D1FAE3E24B2D7AE00D27822 /* GlobalCal.m in Sources */,
+				3D1FAE1D24B2D71B00D27822 /* SceneDelegate.swift in Sources */,
+				3D1FAE3A24B2D7AE00D27822 /* HelioPositions.swift in Sources */,
+				3DA17C262614C873007CF04E /* ChartViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D1FAE2824B2D72200D27822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1FAE2924B2D72200D27822 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1FAE2C24B2D72200D27822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D1FAE2D24B2D72200D27822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1FAE2F24B2D72200D27822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IntermediateZodiac/Preview Content\"";
+				DEVELOPMENT_TEAM = QTGLTH5XT3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IntermediateZodiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wingluntong.zodiacreading.IntermediateZodiac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntermediateZodiac-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D1FAE3024B2D72200D27822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IntermediateZodiac/Preview Content\"";
+				DEVELOPMENT_TEAM = QTGLTH5XT3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = IntermediateZodiac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wingluntong.zodiacreading.IntermediateZodiac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntermediateZodiac-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1FAE1224B2D71B00D27822 /* Build configuration list for PBXProject "IntermediateZodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1FAE2C24B2D72200D27822 /* Debug */,
+				3D1FAE2D24B2D72200D27822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1FAE2E24B2D72200D27822 /* Build configuration list for PBXNativeTarget "IntermediateZodiac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1FAE2F24B2D72200D27822 /* Debug */,
+				3D1FAE3024B2D72200D27822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D1FAE1E24B2D71B00D27822 /* IntermediateZodiac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D1FAE1F24B2D71B00D27822 /* IntermediateZodiac.xcdatamodel */,
+			);
+			currentVersion = 3D1FAE1F24B2D71B00D27822 /* IntermediateZodiac.xcdatamodel */;
+			path = IntermediateZodiac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D1FAE0F24B2D71B00D27822 /* Project object */;
+}
