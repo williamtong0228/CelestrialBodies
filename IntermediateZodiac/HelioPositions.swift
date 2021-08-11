@@ -1077,8 +1077,8 @@ struct HelioPositions{
     
     func convertVectorToCoor(xVec:Double, yVec:Double, zVec:Double) -> GeoLatLon {
         
-        var longitude = atan(yVec/xVec) * 180 / .pi
-        var latitude = atan(zVec/sqrt(xVec*xVec + yVec*yVec)) * 180 / .pi
+        var longitude = atan2(yVec/xVec) * 180 / .pi
+        var latitude = atan2(zVec/sqrt(xVec*xVec + yVec*yVec)) * 180 / .pi
         
         if longitude < 0 {
             longitude += 360
